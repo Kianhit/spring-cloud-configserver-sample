@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: CONFIGCLIENT
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+#  profiles:
+#    active: prod
+
+server:
+  port: 8990
